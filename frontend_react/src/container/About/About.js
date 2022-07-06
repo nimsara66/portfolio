@@ -2,33 +2,41 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 
 import { images } from '../../constants'
+import { urlFor, client } from '../../client'
 
 import './About.scss'
 
-const abouts = [
-  {
-    title: 'Web Development',
-    description: "I'm a good web developer",
-    imgURL: images.about03,
-  },
-  {
-    title: 'Web Design',
-    description: "I'm a good web designer",
-    imgURL: images.about01,
-  },
-  {
-    title: 'UI/UX',
-    description: "I'm a good ui/ux developer",
-    imgURL: images.about02,
-  },
-  {
-    title: 'Web Animation',
-    description: "I'm a good web animator",
-    imgURL: images.about04,
-  },
-]
+// const abouts = [
+//   {
+//     title: 'Web Development',
+//     description: "I'm a good web developer",
+//     imgURL: images.about03,
+//   },
+//   {
+//     title: 'Web Design',
+//     description: "I'm a good web designer",
+//     imgURL: images.about01,
+//   },
+//   {
+//     title: 'UI/UX',
+//     description: "I'm a good ui/ux developer",
+//     imgURL: images.about02,
+//   },
+//   {
+//     title: 'Web Animation',
+//     description: "I'm a good web animator",
+//     imgURL: images.about04,
+//   },
+// ]
 
 const About = () => {
+  const [abouts, setAbouts] = useState([])
+
+  useEffect(() => {
+    const query = '*[_type == "abouts"]'
+    client.fetch(query).then((data) => setAbouts(data))
+  }, [])
+
   return (
     <>
       <h2 className='head-text'>
@@ -48,7 +56,7 @@ const About = () => {
             className='app__profile-item'
             key={about.title + index}
           >
-            <img src={about.imgURL} alt={about.title} />
+            <img src={urlFor(about.imgUrl)} alt={about.title} />
             <h2 className='bold-text' style={{ marginTop: 20 }}>
               {about.title}
             </h2>
