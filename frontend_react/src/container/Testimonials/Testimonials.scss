@@ -114,12 +114,14 @@
             width: 100%;
             height: auto;
             object-fit: cover;
-            filter: grayscale(1)
+            filter: grayscale(1);
+            opacity: .5;
         }
 
         &:hover {
             img {
                 filter: grayscale(0);
+                opacity: 1;
             }
         }
 

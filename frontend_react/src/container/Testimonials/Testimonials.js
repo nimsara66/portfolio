@@ -37,7 +37,10 @@ const Testimonials = () => {
       {testimonials.length > 0 && (
         <>
           <div className='app__testimonials-item app__flex'>
-            <img src={urlFor(test.imageurl)} alt='testimonial' />
+            <img
+              src={urlFor(test.imageurl)}
+              alt='a client of nimsara fernando has given this testimonial'
+            />
             <div className='app__testimonials-content'>
               <p className='p-text'>{test.feedback}</p>
               <div>
@@ -83,7 +86,10 @@ const Testimonials = () => {
             transition={{ duration: 0.5, type: 'tween' }}
             key={brand._id}
           >
-            <img src={urlFor(brand.imgUrl)} alt={brand.name} />
+            <img
+              src={urlFor(brand.imgUrl)}
+              alt={`nimsara fernando has worked for ${brand.name} company`}
+            />
           </motion.div>
         ))}
       </div>

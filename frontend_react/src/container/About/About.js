@@ -18,7 +18,7 @@ const About = () => {
     <>
       <h2 className='head-text'>
         I Know That
-        <span> Good Development</span>
+        <span> Good Developer</span>
         <br />
         means
         <span> Good Business</span>
@@ -33,7 +33,10 @@ const About = () => {
             className='app__profile-item'
             key={about.title + index}
           >
-            <img src={urlFor(about.imgUrl)} alt={about.title} />
+            <img
+              src={urlFor(about.imgUrl)}
+              alt={`nimsara fernando is a ${about.title}`}
+            />
             <h2 className='bold-text' style={{ marginTop: 20 }}>
               {about.title}
             </h2>
