@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, './frontend_react/build', 'index.html'))
 })
 
-PORT = 4011
+PORT = process.env.PORT || 4011
 
 const start = async () => {
   try {
