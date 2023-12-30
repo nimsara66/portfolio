@@ -39,7 +39,7 @@ As a software engineer, having a portfolio website is crucial for several reason
 3. Web analytics, Speed insights and Logs by vercel 
 
 ![](./assets/vercel_analytics.png)
-<h3 align="center" style="color: #333">[Vercel Analytics Dashboard](https://vercel.com/analytics)</h6>
+<h6 align="center" style="color: #333">[Vercel Analytics Dashboard](https://vercel.com/analytics)</h6>
 
 ## Technologies Used
 
