@@ -1,6 +1,15 @@
 # [My Portfolio Website](https://www.nimsarafernando.com)
 
-<center>![](./assets/banner.png)</center>
+![](./assets/banner.png)
+
+<h3 align="center" style="color: #333">Connect with me 🙂</h3>
+<p align="center" style="display: flex; align-items: center; justify-content: center;">
+<a href="https://linkedin.com/in/nimsara66" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="todo" height="40" width="40" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.facebook.com/mihindukulasuria.fernando" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="todo" height="40" width="40" /></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://instagram.com/nimsara_sudeepa" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="todo" height="40" width="40" /></a>
+</p>
 
 ## Table of Contents
 
@@ -23,14 +32,14 @@ As a software engineer, having a portfolio website is crucial for several reason
 
 1. Update content on the portfolio without changing the code using sanity cms admin dashboard.
 
-<center>![](./assets/sanity-cms.svg)</center>
-<center>[Architecture of Sanity CMS](https://www.sanity.io/headless-cms)</center>
+![](./assets/sanity-cms.svg)
+<h6 align="center" style="color: #333">[Architecture of Sanity CMS](https://www.sanity.io/headless-cms)</h6>
 
 2. Improved SEO with Next.js 14
 3. Web analytics, Speed insights and Logs by vercel 
 
-<center>![](./assets/vercel_analytics.png)</center>
-<center>[Vercel Analytics Dashboard](https://vercel.com/analytics)</center>
+![](./assets/vercel_analytics.png)
+<h3 align="center" style="color: #333">[Vercel Analytics Dashboard](https://vercel.com/analytics)</h6>
 
 ## Technologies Used
 
