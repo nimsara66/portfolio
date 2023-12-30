@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# [My Portfolio Website](https://www.nimsarafernando.com)
+
+<center>![](../assets/banner.png)</center>
+
+## Table of Contents
+
+- [My Portfolio Website](#my-portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Getting Started](#getting-started)
+  - [Configuration](#configuration)
+  - [Folder Structure](#folder-structure)
+  - [Contributing](#contributing)
+  - [Copyrght](#copyrght)
+
+## Overview
+
+As a software engineer, having a portfolio website is crucial for several reasons. This website serves as a centralized hub where I showcase my skills, projects, and achievements. It not only acts as a virtual resume but also provides a dynamic and interactive platform for potential employers, clients, or collaborators to learn more about my work. The portfolio is designed to highlight my technical proficiency, creativity, and problem-solving abilities.
+
+## Features
+
+1. Update content on the portfolio without changing the code using sanity cms admin dashboard.
+
+<center>![](../assets/sanity-cms.svg)</center>
+<center>[Architecture of Sanity CMS](https://www.sanity.io/headless-cms)</center>
+
+2. Improved SEO with Next.js 14
+3. Web analytics, Speed insights and Logs by vercel 
+
+<center>![](../assets/vercel_analytics.png)</center>
+<center>[Vercel Analytics Dashboard](https://vercel.com/analytics)</center>
+
+## Technologies Used
+
+- [Next.js 14](https://nextjs.org/): Briefly explain why you chose Next.js 14 for your frontend.
+- [Sass](https://sass-lang.com/): Explain how you used Sass for styling.
+- [Sanity CMS](https://www.sanity.io/): Justify why you chose Sanity CMS for your content management needs.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+```bash
+git clone https://github.com/nimsara66/portfolio.git
+```
+
+2. Go into either frontend_next or frontend_react:
+
+```bash
+cd frontend_next
+```
+
+or
+
+```bash
+cd frontend_react
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Add a .env file and fill your credentials
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+NEXT_APP_SANITY_PROJECT_ID=<project-id>
+NEXT_APP_SANITY_PROJECT_TOKEN=<project-token>
+```
 
-## Learn More
+## Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+- ./backend_sanity
+  - The sanity cms schema generation for the [portfolio website](https://www.nimsarafernando.com)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ./frontend_next
+  - Latest update on the frontend for the [portfolio website](https://www.nimsarafernando.com)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- ./frontend_react
+  - Legacy version of the frontend for the [portfolio website](https://www.nimsarafernando.com)
 
-## Deploy on Vercel
+## Contributing
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Feel free to contribute to this project! Your contributions and comments are welcome and appreciated.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+## Copyrght
+
+@2024 NIMSARA ALL RIGHTS RESERVED

@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+# [My Portfolio Website](https://www.nimsarafernando.com)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<center>![](../assets/banner.png)</center>
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [My Portfolio Website](#my-portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Getting Started](#getting-started)
+  - [Configuration](#configuration)
+  - [Folder Structure](#folder-structure)
+  - [Contributing](#contributing)
+  - [Copyrght](#copyrght)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+As a software engineer, having a portfolio website is crucial for several reasons. This website serves as a centralized hub where I showcase my skills, projects, and achievements. It not only acts as a virtual resume but also provides a dynamic and interactive platform for potential employers, clients, or collaborators to learn more about my work. The portfolio is designed to highlight my technical proficiency, creativity, and problem-solving abilities.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+1. Update content on the portfolio without changing the code using sanity cms admin dashboard.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<center>![](../assets/sanity-cms.svg)</center>
+<center>[Architecture of Sanity CMS](https://www.sanity.io/headless-cms)</center>
 
-### `npm run build`
+2. Improved SEO with Next.js 14
+3. Web analytics, Speed insights and Logs by vercel 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<center>![](../assets/vercel_analytics.png)</center>
+<center>[Vercel Analytics Dashboard](https://vercel.com/analytics)</center>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Next.js 14](https://nextjs.org/): Briefly explain why you chose Next.js 14 for your frontend.
+- [Sass](https://sass-lang.com/): Explain how you used Sass for styling.
+- [Sanity CMS](https://www.sanity.io/): Justify why you chose Sanity CMS for your content management needs.
 
-### `npm run eject`
+## Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/nimsara66/portfolio.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Go into either frontend_next or frontend_react:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd frontend_next
+```
 
-## Learn More
+or
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+cd frontend_react
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Install dependencies:
 
-### Code Splitting
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Run the development server:
 
-### Analyzing the Bundle Size
+```bash
+npm run dev
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Configuration
 
-### Making a Progressive Web App
+Add a .env file and fill your credentials
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+NEXT_APP_SANITY_PROJECT_ID=<project-id>
+NEXT_APP_SANITY_PROJECT_TOKEN=<project-token>
+```
 
-### Advanced Configuration
+## Folder Structure
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- ./backend_sanity
+  - The sanity cms schema generation for the [portfolio website](https://www.nimsarafernando.com)
 
-### Deployment
+- ./frontend_next
+  - Latest update on the frontend for the [portfolio website](https://www.nimsarafernando.com)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- ./frontend_react
+  - Legacy version of the frontend for the [portfolio website](https://www.nimsarafernando.com)
 
-### `npm run build` fails to minify
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute to this project! Your contributions and comments are welcome and appreciated.
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+## Copyrght
+
+@2024 NIMSARA ALL RIGHTS RESERVED
